@@ -1,0 +1,32 @@
+<div class="formcontainer">
+    <div class="formbody">
+        <form style="width:100%">
+            <div class="header">Register</div>
+            <div>
+                <mat-form-field style="width:100%;">
+                    <input type="text" formControlName="email" matInput placeholder="Enter Your Email id " id="email">
+                    </mat-form-field>
+
+            </div>
+            <div>
+            <mat-form-field style="width:100%;">
+                <input type="password" fromControlName="password" matInput placeholder="Enter your password" id="pass">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field style="width:100%;">
+                    <input type="password" formControlName="cnpass" matInput placeholder="Enter your confirmpassword " id="cnpass">
+
+                    </mat-form-field>
+            </div>
+            <div style="margin-top:20px;">
+                <button class="form-btn" (click)="register()">Register</button>
+                </div>
+            </form>
+    </div>
+    <div>
+        <div style="width:290px;padding:20px;">
+            <button class="form-btn-hpllow" (click)="movetologin()">Login</button>
+            </div>
+        </div>
+        </div>
